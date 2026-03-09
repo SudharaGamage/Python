@@ -1,0 +1,157 @@
+# ==============================
+# Created by Sudhara Lokugamage
+# ==============================
+
+print("Hello, World!")
+
+# ------------------------------
+# Variables
+# ------------------------------
+student_name = "Ane"
+print("Student Name:", student_name)
+
+
+# ------------------------------
+# Arithmetic Operators
+# ------------------------------
+x = 8
+y = 3
+
+print("\nArithmetic Operators:")
+print("Addition:", x + y)
+print("Subtraction:", x - y)
+print("Multiplication:", x * y)
+print("Division:", x / y)
+print("Modulus:", x % y)
+print("Exponent:", x ** y)
+print("Floor Division:", x // y)
+
+
+# ------------------------------
+# Comparison Operators
+# ------------------------------
+print("\nComparison Operators:")
+print("Equal:", x == y)
+print("Not Equal:", x != y)
+print("Greater Than:", x > y)
+print("Less Than:", x < y)
+print("Greater or Equal:", x >= y)
+print("Less or Equal:", x <= y)
+
+
+# ------------------------------
+# Logical Operators
+# ------------------------------
+print("\nLogical Operators:")
+print("AND:", 8 > 3 and 3 > 1)
+print("OR:", 8 > 3 or 3 > 1)
+print("NOT:", not (8 > 3))
+
+
+# ------------------------------
+# Assignment Operators
+# ------------------------------
+print("\nAssignment Operators:")
+x = 5
+print("Initial value:", x)
+
+x += 3
+print("After += :", x)
+
+x -= 3
+print("After -= :", x)
+
+x *= 3
+print("After *= :", x)
+
+x /= 3
+print("After /= :", x)
+
+x %= 3
+print("After %= :", x)
+
+x **= 3
+print("After **= :", x)
+
+x //= 3
+print("After //= :", x)
+
+
+# ------------------------------
+# Identity Operators
+# ------------------------------
+print("\nIdentity Operators:")
+a = 10
+b = 10
+
+print("a is b:", a is b)
+print("a is not b:", a is not b)
+
+
+# ------------------------------
+# Membership Operators
+# ------------------------------
+print("\nMembership Operators:")
+print("3 in [1,2,3]:", 3 in [1, 2, 3])
+print("4 not in [1,2,3]:", 4 not in [1, 2, 3])
+
+
+# ------------------------------
+# Data Structures
+# ------------------------------
+
+# List
+print("\nList:")
+fruits_list = ["apple", "banana", "watermelon"]
+print(fruits_list)
+
+# Tuple
+print("\nTuple:")
+fruits_tuple = ("apple", "banana", "watermelon")
+print(fruits_tuple)
+
+# Set
+print("\nSet:")
+numbers_set = {1, 5, 7, 10, 25}
+print(numbers_set)
+
+# Dictionary
+print("\nDictionary:")
+employer = {
+    "name": "John",
+    "department": "Finance",
+    "age": 35
+}
+print(employer)
+
+
+# ------------------------------
+# Conditional Statements
+# ------------------------------
+
+# If Statement
+print("\nIf Statement:")
+age = 18
+
+if age >= 18:
+    print("You are eligible.")
+
+# If-Else Statement
+print("\nIf-Else Statement:")
+age = 16
+
+if age >= 18:
+    print("You are eligible.")
+else:
+    print("You are not eligible.")
+
+# If-Elif-Else Statement
+print("\nIf-Elif-Else Statement:")
+marks = 75
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+else:
+    print("Grade C")
